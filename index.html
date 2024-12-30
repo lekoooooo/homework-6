@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>homework 6</title>
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="main-container">
+        <div class="card">
+          <div class="left">
+            <h2>Get in <span>Touch</span></h2>
+            <p>
+              Enim tempor eget pharetra facilisis sed maecenas adipiscing. Eu
+              leo molestie vel, ornare non id blandit netus.
+            </p>
+            <div class="inputs">
+              <label for="name"></label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                class="label"
+                placeholder="Name"
+                required
+                size="50px"
+              />
+              <label class="email"></label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                class="label"
+                placeholder="Email"
+              />
+              <label for="phone"></label>
+              <input
+                type="number"
+                id="number"
+                name="number"
+                class="label"
+                placeholder="Phone Number"
+                required
+              />
+              <label for="find-us"></label>
+              <select id="find-us" name="find-us" class="label">
+                <option value="select">How did you find us ?</option>
+                <option value="internet">Internet</option>
+                <option value="friend">Friends</option>
+                <option value="re-edu">Re-Educate</option>
+              </select>
+              <button type="submit" class="btn-submit label">SEND</button>
+              <div class="contact-card">
+                <div class="contact">
+                  <img class="img" src="img/phone.svg" alt="phone" />
+                  <h4>PHONE</h4>
+                  <span>03 5432 1234</span>
+                </div>
+                <div class="contact">
+                  <img class="img" src="img/fax.svg" alt="fax" />
+                  <h4>FAX</h4>
+                  <span>03 5432 1234</span>
+                </div>
+                <div class="contact">
+                  <img class="img" src="img/email.svg" alt="email" />
+                  <h4>EMAIL</h4>
+                  <span>samikapitani@gmail.com</span>
+                </div>
+              </div>
+            </div>
+            <div class="mapswrapper">
+              <iframe
+                width="490"
+                height="600"
+                loading="lazy"
+                allowfullscreen
+                src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&q=tijuana&zoom=10&maptype=roadmap"
+              ></iframe>
+            </div>
+          </div>
+          <div class="right"></div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

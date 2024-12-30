@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "montserrat";
+  src: url(../fonts/Montserrat-VariableFont_wght.ttf);
+}
+body {
+  background-color: rgba(128, 128, 128, 0.721);
+  overflow: hidden;
+}
+
+.main-container {
+  display: flex;
+  justify-content: space-between;
+
+  font-family: "montserrat", Helvetica, sans-serif;
+}
+
+.main-container span {
+  color: #dd5471;
+}
+.card {
+  display: flex;
+  overflow: hidden;
+  width: 1440px;
+  width: 100%;
+  height: 900px;
+  padding: 50px 150px;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 50px;
+}
+.left {
+  display: flex;
+  width: 545px;
+  height: 604px;
+  flex-direction: column;
+  gap: 20px;
+
+  padding: 20px;
+}
+
+.left h2 {
+  font-size: 54px;
+}
+.left p {
+  font-size: 14px;
+  font-weight: bold;
+}
+.inputs {
+  display: flex;
+  flex-direction: column;
+
+  gap: 20px;
+}
+
+.label {
+  width: 545px;
+  height: 50px;
+  padding-left: 20px;
+}
+
+.btn-submit {
+  background-color: #dd5471;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+.contact-card {
+  display: flex;
+  width: 500px;
+  height: 55px;
+  font-size: 13px;
+  justify-content: space-between;
+
+  cursor: pointer;
+}
+
+.contact {
+  width: 230px;
+  height: 40px;
+
+  text-align: center;
+}
+.contact span {
+  padding-left: 40px;
+}
+img {
+  display: block;
+  margin-right: 30px;
+}
+
+.mapswrapper {
+  position: relative;
+}
+.mapswrapper iframe {
+  border: 0;
+  position: absolute;
+  left: 580px;
+  bottom: 50px;
+
+  z-index: 1;
+}
+.right {
+  position: relative;
+  left: 150px;
+  bottom: 50px;
+  overflow: hidden;
+  height: 900px;
+  width: 419px;
+  background: #183a4a;
+}
